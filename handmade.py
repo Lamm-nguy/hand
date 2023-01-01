@@ -4,7 +4,7 @@ number = input('target : ')
 
 from phonenumbers import geocoder
 pp = phonenumbers.parse(number)
-loc = geocoder.description_for_number(pepnumber, "en")
+loc = geocoder.description_for_number(pp, "en")
 
 from phonenumbers import carrier
 sv = phonenumbers.parse(number)
