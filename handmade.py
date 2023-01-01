@@ -1,6 +1,6 @@
 import phonenumbers
 import opencage
-numbers = input('target : ')
+number = input('target : ')
 
 from phonenumbers import geocoder
 pp = phonenumbers.parse(number)
