@@ -12,7 +12,7 @@ print(carrier.name_for_number(sv, "en"))
 
 from opencage.geocoder import OpenCageGeocode
 
-key = ' '
+key = 'c6456d5bbfa841d5b3f0f65e7608cff2'
 geocoder = OpenCageGeocode(key)
 qr = str(loc)
 rs = geocoder.geocode(qr)
